@@ -271,12 +271,12 @@ function TeacherList() {
     return (
         <>
             <div>
-                <h3>Nhân viên List</h3>
+                <h3>Teacher List</h3>
             </div>
             <section>
                 <div>
                     <button className="btn btn-sm btn-warning" onClick={() => setToggleForm(!toggleForm)}>
-                        {toggleForm ? 'Hide Form' : 'Add nhân viên'}
+                        {toggleForm ? 'Hide Form' : 'Add Teacher'}
                     </button>
                 </div>
 
